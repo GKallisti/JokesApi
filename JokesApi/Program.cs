@@ -7,6 +7,7 @@ var jokes = new List<Joke>
     new Joke { Id = 3, Text = "Why did the bicycle fall over? Because it was two-tired!" },
     new Joke { Id = 4, Text = "Why did the math book look sad? Because it had too many problems." },
     new Joke { Id = 5, Text = "Why did the tomato turn red? Because it saw the salad dressing!" }
+    new Joke { Id = 6, Text = "Why did the coffee break up with the cream? Because it was too milky!" }
 };
 
 app.MapGet("/jokes/random", () =>
